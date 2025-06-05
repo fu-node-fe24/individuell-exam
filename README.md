@@ -24,7 +24,7 @@ Menyn ska hanteras i en **egen databas** och arbetet ska ske i ett **eget repo**
 - Kopiera in gruppens kod i ditt repo **eller** utgå från den tillhandahållna kod som finns i `startkod`-mappen.
 - Skapa en **egen MongoDB-databas** (du får alltså inte använda gruppens).
 - Skapa en **menu-collection** och lägg in menyn manuellt via MongoDB Compass.
-- Dokumentationen från del 1 har uppdaterats och den [ni hittar här](https://gist.github.com/Santosnr6/82cb658f21006799767cea1f1f90fd53). 3 nya endpoints har lagts till, och registrera ny användare har uppdaterats.
+- Dokumentationen från del 1 har uppdaterats och den [hittar ni här](https://gist.github.com/Santosnr6/82cb658f21006799767cea1f1f90fd53). 3 nya endpoints har lagts till, och registrera ny användare har uppdaterats.
 - Ge **läraren**:
   - Network Access till din databas (IP: `2.248.92.11`)
   - Din **Connection String** både för Compass och Drivers – skriv dem i en **kommentar i din inlämning** (lägg även in kontouppgifterna för den användare ni skapar åt mig)
@@ -61,16 +61,18 @@ Menyn ska hanteras i en **egen databas** och arbetet ska ske i ett **eget repo**
 
 - Använd **lösenordskryptering** med t.ex. `bcrypt` vid inloggning och registrering
 - Använd **auth tokens** (t.ex. JWT) för att verifiera användare och skydda endpoints
-- För VG ska du **inte** använda `global.user`
+- För VG ska du **inte** använda `global.user` och du kommer därför behöva skriva om delar av koden från gruppexaminationen
 
 ### 📘 Swagger
 
-- Skapa **Swagger-dokumentation** för de tre nya admin-endpoints
+- Skapa **Swagger-dokumentation** för de tre nya admin-endpoints, samt för alla Auth-endpoints
 - Dokumentationen ska innehålla:
+  - Beskrivning av anropet
+  - Vilka parametrar som krävs
   - Request body-schema
   - Response-exempel
   - Felmeddelanden
-  - Information om att endpoints kräver token och admin-rättigheter
+  - Information om att requests kräver token och admin-rättigheter
 
 ---
 
