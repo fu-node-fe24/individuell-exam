@@ -80,7 +80,7 @@ Menyn ska hanteras i en **egen databas** och arbetet ska ske i ett **eget repo**
 ## 📥 Inlämning
 
 Ladda upp din kod i ett **eget repo** och lämna in **länken på Azomo** senast:  
-🗓️ **Torsdag 13/6 kl 23:59**
+🗓️ **Fredag 13/6 kl 23:59**
 
 Din inlämning ska innehålla:
 
